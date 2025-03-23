@@ -1,0 +1,24 @@
+wallpaper: "/home/brent/Pictures/Wallpapers/Wallpaper.jpg"
+
+special:
+    background: "#000D1B"
+    foreground: "#bfc2c6"
+    cursor: "#bfc2c6"
+
+colors:
+    color0: "#000D1B"
+    color1: "#875742"
+    color2: "#9f6c50"
+    color3: "#013b6f"
+    color4: "#004575"
+    color5: "#0178a3"
+    color6: "#0d9ab7"
+    color7: "#8c9297"
+    color8: "#57606b"
+    color9: "#B47458"
+    color10: "#D4916B"
+    color11: "#024F94"
+    color12: "#015D9D"
+    color13: "#02A1DA"
+    color14: "#12CEF5"
+    color15: "#bfc2c6"

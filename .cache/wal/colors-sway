@@ -1,0 +1,21 @@
+set $wallpaper /home/brent/Pictures/Wallpapers/Wallpaper.jpg
+
+set $background #000D1B
+set $foreground #bfc2c6
+
+set $color0 #000D1B
+set $color1 #875742
+set $color2 #9f6c50
+set $color3 #013b6f
+set $color4 #004575
+set $color5 #0178a3
+set $color6 #0d9ab7
+set $color7 #8c9297
+set $color8 #57606b
+set $color9 #B47458
+set $color10 #D4916B
+set $color11 #024F94
+set $color12 #015D9D
+set $color13 #02A1DA
+set $color14 #12CEF5
+set $color15 #bfc2c6

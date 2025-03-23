@@ -1,0 +1,28 @@
+{
+    "checksum": "550e91eb0a5b3dc23aa72c534ef36b58",
+    "wallpaper": "/home/brent/Pictures/Wallpapers/wallhaven-5gylo8.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000D1B",
+        "foreground": "#bfc2c6",
+        "cursor": "#bfc2c6"
+    },
+    "colors": {
+        "color0": "#000D1B",
+        "color1": "#B47458",
+        "color2": "#D4916B",
+        "color3": "#024F94",
+        "color4": "#015D9D",
+        "color5": "#02A1DA",
+        "color6": "#12CEF5",
+        "color7": "#bfc2c6",
+        "color8": "#57606b",
+        "color9": "#B47458",
+        "color10": "#D4916B",
+        "color11": "#024F94",
+        "color12": "#015D9D",
+        "color13": "#02A1DA",
+        "color14": "#12CEF5",
+        "color15": "#bfc2c6"
+    }
+}

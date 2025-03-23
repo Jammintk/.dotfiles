@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/brent/Pictures/Wallpapers/Wallpaper.jpg"
+let background = "#000D1B"
+let foreground = "#bfc2c6"
+let cursor     = "#bfc2c6"
+
+" Colors
+let color0  = "#000D1B"
+let color1  = "#875742"
+let color2  = "#9f6c50"
+let color3  = "#013b6f"
+let color4  = "#004575"
+let color5  = "#0178a3"
+let color6  = "#0d9ab7"
+let color7  = "#8c9297"
+let color8  = "#57606b"
+let color9  = "#B47458"
+let color10 = "#D4916B"
+let color11 = "#024F94"
+let color12 = "#015D9D"
+let color13 = "#02A1DA"
+let color14 = "#12CEF5"
+let color15 = "#bfc2c6"

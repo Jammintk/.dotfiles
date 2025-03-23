@@ -1,0 +1,28 @@
+{
+    "checksum": "52b2492f83bf4c11c4bc659352cb0ca8",
+    "wallpaper": "/home/brent/Pictures/Screenshots/Screenshot_20250312_214934.png",
+    "alpha": "100",
+    "special": {
+        "background": "#030C17",
+        "foreground": "#c0c2c5",
+        "cursor": "#c0c2c5"
+    },
+    "colors": {
+        "color0": "#030C17",
+        "color1": "#AA7057",
+        "color2": "#D29666",
+        "color3": "#025E9E",
+        "color4": "#185891",
+        "color5": "#02A1D9",
+        "color6": "#56BDD5",
+        "color7": "#c0c2c5",
+        "color8": "#57606b",
+        "color9": "#AA7057",
+        "color10": "#D29666",
+        "color11": "#025E9E",
+        "color12": "#185891",
+        "color13": "#02A1D9",
+        "color14": "#56BDD5",
+        "color15": "#c0c2c5"
+    }
+}
