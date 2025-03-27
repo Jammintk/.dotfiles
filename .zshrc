@@ -29,3 +29,9 @@ source ~/.cache/wal/colors-tty.sh
 
 # add alias for dotfiles git
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# add alias for updates
+full-update() {
+	eos-update
+	eos-update --yay
+}

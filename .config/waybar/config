@@ -39,7 +39,7 @@
             "interval": 30,   
             "exec": "checkupdates | wc -l",
             "exec-if": "exit 0",
-            "on-click": "kitty eos-update; pkill -SIGRTMIN+8 waybar",
+            "on-click": "kitty eos-update; eos-update --yay; pkill -SIGRTMIN+8 waybar",
             "signal": 8,
             "tooltip": false,
         },
