@@ -11,12 +11,15 @@ export XDG_DATA_HOME="$HOME/.local/.share"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.local/state"
 
-# Set Zsh config directory. Zsh should look here for .zshrc
-export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
-
 # History files
 export LESSHISTFILE="$XDG_CACHE_HOME/zsh-less-history"
 export PYTHON_HISTORY="$XDG_DATA_HOME/python/history"
+HISTFILE="~/.cache/zsh/zsh-history" # Moves history file to cache
+# History options
+HISTSIZE=1000000
+SAVEHIST=1000000
+HISTCONTROL=ignoreboth # Ignores duplicate and commands starting with a space
+
 
 # add ~/.scripts to PATH
 export PATH="~/.scripts:$PATH"
@@ -41,17 +44,15 @@ export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
 # add dotfiles git
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # set Code to use extensions in XDG dir
-alias code='code --extensions-dir "XDG_DATA_HOME/vscode"'
 
 # Source external files
 ## add wal colors support for TTY
-source ~/.cache/wal/colors-tty.sh
+source $XDG_CACHE_HOME/wal/colors-tty.sh
 
 # Load modules
 zmodload zsh/complist # Completion
 autoload -U compinit && compinit
 autoload -U colors && colors # Shell Colors
-autoload -U tetris # Tetris? Tetris
 
 # Completion Options
 zstyle ':completion:*' menu select # Set completion menu to TAB
@@ -71,14 +72,7 @@ setopt globdots # include dotfiles in autocomplete
 setopt extended_glob # matches ~,#,^
 setopt interactive_comments # allow comments in shell
 setopt notify # notify in terminal when a long process completes
-unsetopt prompt_sp # Do not auto clear blank lines
 stty stop undef # stops accidental terminal stop
-
-# History options
-HISTFILE="~/.cache/zsh/zsh-history" # Moves history file to cache
-HISTSIZE=1000000
-SAVEHIST=1000000
-HISTCONTROL=ignoreboth # Ignores duplicate and commands starting with a space
 
 # keybinds 
 bindkey "^a" beginning-of-line
