@@ -22,7 +22,7 @@ HISTCONTROL=ignoreboth # Ignores duplicate and commands starting with a space
 
 
 # add ~/.scripts to PATH
-export PATH="~/.scripts:$PATH"
+export PATH=$HOME/.scripts:$PATH
 
 # Set XDG specification locations for various environment variables
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
@@ -86,3 +86,6 @@ eval "$(oh-my-posh init zsh --config $XDG_CONFIG_HOME/oh-my-posh/.posh.json)"
 # ( ) # Hide shell job control messages.
 # Not supported in the "fish" shell.
 (cat ~/.cache/wal/sequences &)
+
+# Set man pages to use colors
+export MANPAGER="less -R --use-color -Dd+r -Du+b"
